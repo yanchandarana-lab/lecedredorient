@@ -45,6 +45,50 @@ export const menu = [
     ],
   },
   {
+    id: 'shawarma',
+    title: 'Shawarma',
+    subtitle: 'Uniquement en livraison et à emporter (Deliveroo, Uber Eats)',
+    items: [
+      { name: 'Sandwich bœuf', desc: 'Émincé de bœuf, cornichons, tomates et sauce tahini (sésame)', price: '8,50€' },
+      { name: 'Sandwich poulet', desc: "Émincé de poulet, cornichons, salade, tomates et sauce à l'ail", price: '7,00€' },
+      { name: 'Sandwich falafel', desc: 'Beignet de pois chiche, sauce tahini, oignons rouges, salade, tomates, cornichons', price: '6,50€' },
+      { name: 'Sandwich chich taouk', desc: "Poulet mariné, sauce à l'ail, tomate, cornichons", price: '8,00€' },
+    ],
+  },
+  {
+    id: 'menu-shawarma',
+    title: 'Menu Shawarma',
+    subtitle: 'Uniquement en livraison et à emporter (Deliveroo, Uber Eats)',
+    items: [
+      { name: 'Sandwich poulet, bœuf ou chich taouk', desc: '+ boisson ou frites', price: '12,00€' },
+      { name: 'Sandwich falafel', desc: '+ boisson et frites', price: '10,50€' },
+    ],
+  },
+  {
+    id: 'frites-maison',
+    title: 'Frites Maison',
+    items: [
+      { name: 'Petite', desc: '', price: '2,50€' },
+      { name: 'Grande', desc: '', price: '4,00€' },
+    ],
+  },
+  {
+    id: 'menu-midi',
+    title: 'Menu Midi',
+    subtitle: 'Uniquement en livraison et à emporter (Deliveroo, Uber Eats)',
+    items: [
+      { name: 'Shawarma au choix, Fatayer ou Rakik', desc: '+ frites, salade, boisson + dessert (karayef ou helou mshakal)', price: '12,90€' },
+    ],
+  },
+  {
+    id: 'menu-midi-vegetarien',
+    title: 'Menu Midi Végétarien',
+    subtitle: 'Uniquement en livraison et à emporter (Deliveroo, Uber Eats)',
+    items: [
+      { name: 'Shawarma falafel, Fatayer ou Sambousek jebné', desc: '+ frites, salade, boisson + dessert (karayef ou helou mshakal)', price: '11,90€' },
+    ],
+  },
+  {
     id: 'menu-enfant',
     title: 'Menu Enfant',
     subtitle: "Pour les petits gourmands, jusqu'à 12 ans",
